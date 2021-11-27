@@ -1,0 +1,38 @@
+Arguments: 
+  C:\ProgramData\Anaconda3\node.exe C:\ProgramData\Anaconda3\node_modules\yarn\bin\yarn.js add @openzeppelin-contracts
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\ProgramData\Anaconda3\bin;C:\ProgramData\Anaconda3\condabin;C:\Python310\Scripts;C:\Python310;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Oculus\Support\oculus-runtime;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;ΓÇ¬C:\adp\adb.exe;C:\Program Files (x86)\Calibre2;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.1;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;D:\Stuff\Polyspace\R2021a\runtime\win64;D:\Stuff\Polyspace\R2021a\bin;D:\Stuff\Polyspace\R2021a\polyspace\bin;C:\Program Files\PowerShell\7;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Fallen King\AppData\Local\Microsoft\WindowsApps;C:\Users\Fallen King\AppData\Local\GitHubDesktop\bin;C:\Users\Fallen King\AppData\Local\atom\bin;C:\adp;D:\Temp\ffmpeg\bin;C:\Program Files\dotnet;C:\Users\Fallen King\.dotnet\tools;C:\Users\Fallen King\AppData\Roaming\Python\Python38\Scripts;C:\Users\Fallen King\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Fallen King\AppData\Local\Programs\Hyper\resources\bin;D:\Geth;C:\Users\Fallen King\AppData\Roaming\npm;C:\ProgramData\Anaconda3\Scripts\activate.bat;.
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@openzeppelin-contracts: Request "https://registry.yarnpkg.com/@openzeppelin-contracts" returned a 405
+      at Request.params.callback [as _callback] (C:\ProgramData\Anaconda3\node_modules\yarn\lib\cli.js:67038:18)
+      at Request.self.callback (C:\ProgramData\Anaconda3\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\ProgramData\Anaconda3\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\ProgramData\Anaconda3\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "hardhat-project"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
