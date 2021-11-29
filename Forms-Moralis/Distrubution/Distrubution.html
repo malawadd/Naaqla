@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Distrubution Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        text-align: center;
+        background-color: #ffffff;
+        background-image: url("https://hgroupco.com/wp-content/uploads/2018/10/Difference-between-Maritime-Shipping-Freight-Logistics-and-Supply-Chain-1200x675.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      #app {
+        display: none;
+        margin-top: 10px;
+        height: 500px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        color: #424242;
+      }
+      .form_element {
+        margin-top: 20px;
+      }
+      .title {
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+      }
+      #success_message {
+        background-color: #c4ffc4;
+        border: 1px solid #0fcf0f;
+        border-radius: 4px;
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="title">Distrubution Form</div>
+        <div id="app" class="col-md-6 offset-md-3">
+          <div id="success_message"></div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_BatchNumber" name="batchNumber"
+            placeholder="batchNumber">
+          </div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_Shipment_Number" name="ShipmentNumber"
+            placeholder="Shipment Number">
+          </div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_Volume" name="Volume"
+            placeholder="Volume">
+          </div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_IOR" name="IOR" placeholder="Identity
+            of Reciver">
+          </div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_OrderNumber" name="OrderNumber"
+            placeholder="Order Number">
+          </div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_CargoStatus" name="CargoStatus"
+            placeholder="Cargo Status">
+          </div>
+          <div class="form_element">
+            <input class="form-control type="text" id="input_DT" name="DT" placeholder="Date and
+            Time of Dispatch">
+          </div>
+
+          <div class="form_element">
+            <button class="btn btn-primary btn-lg btn-block" id="submit_button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./Distrubution.js"></script>
+  </body>
+</html>

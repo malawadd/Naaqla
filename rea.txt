@@ -1,0 +1,21 @@
+## Inspiration
+I was just drinking my milk and it all of sudden tasted way too good, and from there came the idea of naaqla and being able to track back all of our Dairy product using blockchain.  and now with nfts we can build incentives for both farm owners and consumers to participate in this system.
+ 
+## What it does
+- user enter a product sku to see the entire product journey.
+- then users can buy dynamic cow specific nft's that that showcase specific information about the cows using chainlinks datafeeds and oracles. 
+- users can then trade those nft's in open market
+
+## How we built it
+Moralis baby , for everything front end. chainlink for everything that offchain .
+
+## Challenges we ran into
+how to visualize the entire product journey, I wanted to have a datafeed that would help with that but there wasn't any off the shelve solution and that where I spent waaay too much time working on. eventually that data became hardcoded.
+
+## Accomplishments that we're proud of
+
+just being able to finish this and have something to showcase.
+
+## What we learned
+
+## What's next for Naaqla

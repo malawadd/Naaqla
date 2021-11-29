@@ -21,11 +21,13 @@ module.exports = {
   solidity: "0.8.4",
 
   networks: {
-    local: {
-      url: 'http://localhost:8545'
-    },
+   
     kovan: {
       url: process.env.KOVAN,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    rinkeby: {
+      url: process.env.RINKEBY,
       accounts: [process.env.PRIVATE_KEY],
     }
   }
